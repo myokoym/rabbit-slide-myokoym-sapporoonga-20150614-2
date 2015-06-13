@@ -15,14 +15,20 @@
 : theme
    nyankosakana
 
-= 最初のスライド
+= 全文検索の流れ
 
-  * 項目1
-  * 項目2
-  * 項目3
+  * 文書を登録
+  * キーワードで検索
 
-= 二番目のスライド
+= 登録の流れ
 
-  # image
-  # src = https://raw.github.com/rabbit-shocker/rabbit/master/sample/lavie.png
-  # relative_height = 100
+  * ノーマライズ
+  * トークナイズ
+  * トークンをキーとして文書IDをインデックスに登録
+
+= 検索の流れ
+
+  * ノーマライズ
+  * トークナイズ
+  * トークンでインデックスを検索
+  * 文書IDを取得
