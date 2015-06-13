@@ -196,3 +196,8 @@
 
   * 登録と検索で同じノーマライザーとトークナイザーを使う必要がある
     * それはなぜか？
+
+= 参考
+
+  * Groongaの可変型Ngramトークナイザーについて - Naoya Murakami - Rabbit Slide Show
+    * (('http://slide.rabbit-shocker.org/authors/naoa/groonga-tokenizer-talks-naoa/'))
